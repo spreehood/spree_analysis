@@ -2,6 +2,7 @@ require 'spree_core'
 require 'spree_extension'
 require 'spree_analysis/engine'
 require 'spree_analysis/version'
+require 'spree_analysis/configuration'
 
 module SpreeAnalysis
   class ReportConfig
