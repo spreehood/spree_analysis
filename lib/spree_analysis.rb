@@ -11,7 +11,7 @@ module SpreeAnalysis
     end
 
     def self.configuration
-      @config ||= Spree::Report::Configuration.new
+      @config ||= SpreeAnalysis::Configuration.new
     end
   end
 end
