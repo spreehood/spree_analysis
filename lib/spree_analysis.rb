@@ -2,6 +2,7 @@ require 'spree_core'
 require 'spree_extension'
 require 'spree_analysis/engine'
 require 'spree_analysis/version'
+require 'spree_analysis/configuration'
 
 module SpreeAnalysis
   class ReportConfig
@@ -10,7 +11,7 @@ module SpreeAnalysis
     end
 
     def self.configuration
-      @config ||= Spree::Report::Configuration.new
+      @config ||= SpreeAnalysis::Configuration.new
     end
   end
 end
